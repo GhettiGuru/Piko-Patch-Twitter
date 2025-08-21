@@ -9,6 +9,7 @@ It also performs the following:
 - ✅ **Checks if `revanced-cli.jar` and `aapt2` binary exist** in the script folder:
   - If missing → downloads the working versions.
   - If present → skips downloading.
+  - Fetches latest current GitHub release  of `PikoPatches.jar` and `aapt2`
 - ✅ Includes prompt and option for **"Bring Back Twitter Old Blue Icon"** with y/n selection
 
 No root is required. Just make the script executable and run it (Requires copy to termux data dir of home for chmod rights if no root).
