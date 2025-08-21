@@ -9,17 +9,16 @@ It also performs the following:
 - ✅ **Checks if `revanced-cli.jar` and `aapt2` binary exist** in the script folder:
   - If missing → downloads the working versions.
   - If present → skips downloading.
-- ✅ Prompts you with a **Yes/No (y/n)** confirmation before applying patches.
-- ✅ Includes **"Bring Back Twitter Old Blue Icon"** option (other patches are included by default).
+- ✅ Includes prompt and option for **"Bring Back Twitter Old Blue Icon"** with y/n selection
 
-No root is required. Just make the script executable and run it (Requires copy to termux data dir of home for chmod no root).
+No root is required. Just make the script executable and run it (Requires copy to termux data dir of home for chmod rights if no root).
 
 ---
 
 ## ⚙️ Requirements
 - **Android** with [Termux](https://github.com/termux/termux-app)
-- `Twitter.apk` renamed to match exactly
-- `chmod` permission on the script
+- `Twitter.apk` renamed that, Twitter.apk in same folder as script.
+- `chmod +x` permission on the script either copy ~ (termux home) if no root or root run anywhere.
 
 ---
 
