@@ -27,14 +27,14 @@ No root is required. Just make the script executable and run it (Requires copy t
 If both the script and `Twitter.apk` are in **`/sdcard/Download`**, move them to Termux home, give execute permission, and run:
 
 ```bash
-mv /sdcard/Download/ResinousTwitterPatcher.sh ~ \
+mv /sdcard/Download/ResinousInMyX.sh ~ \
 mv /sdcard/Download/Twitter.apk ~  \
-chmod 0755 ResinousTwitterPatcher.sh  \
-bash ~/ResinousTwitterPatcher.sh
+chmod 0755 ResinousInMyX.sh  \
+bash ~/ResinousInMyX.sh
 ```
 or 1 line:
 ```bash
-mv /sdcard/Download/ResinousTwitterPatcher.sh ~ && mv /sdcard/Download/Twitter.apk ~ && chmod 0755 ResinousTwitterPatcher.sh && bash ~/ResinousTwitterPatcher.sh
+mv /sdcard/Download/ResinousInMyX.sh ~ && mv /sdcard/Download/Twitter.apk ~ && chmod 0755 ResinousInMyX.sh && bash ~/ResinousInMyX.sh
 
 ```
 ---
@@ -45,7 +45,7 @@ After the first patch, for new versions of Twitter, simply:
 - Run:
 
 ```bash
-./ResinousTwitterPatcher.sh
+./ResinousInMyX.sh
 ```
 It will get latest patch jar and integrations APK. Then check if right version and size CLI jar exits already and download if needed same with aapt2 binary.
 ---
