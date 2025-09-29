@@ -9,7 +9,7 @@ It also performs the following:
 - ✅ **Checks if `revanced-cli.jar` and `aapt2` binary exist** in the script folder:
   - If missing → downloads the working versions.
   - If present → skips downloading.
-  - Fetches latest current GitHub release  of `PikoPatches.jar` and `integrations.apk`
+  - Fetches latest current GitHub release  of `PikoPatches.rvp` and `integrations.apk`
 - ✅ Includes prompt and option for **"Bring Back Twitter Old Blue Icon"** with y/n selection
 
 No root is required. Just make the script executable and run it (Requires copy to termux data dir of home for chmod rights if no root).
@@ -47,7 +47,7 @@ After the first patch, for new versions of Twitter, simply:
 ```bash
 ./ResinousInMyX.sh
 ```
-It will get latest patch jar and integrations APK. Then check if right version and size CLI jar exits already and download if needed same with aapt2 binary.
+It will get latest patch rvp and integrations APK. Then check if right version and size CLI jar exits already and download if needed same with aapt2 binary.
 ---
 
 ## 📝 Notes
