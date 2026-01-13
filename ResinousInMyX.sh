@@ -121,9 +121,9 @@ fi
 echo "Patching cmds executed."
 
 if [ -f "$SCRIPT_DIR/PikoX.apk" ]; then
-  echo "Resinous patches Twitter up in yo box at PikoX.apk"
+  echo "Success Resinous was all up in your box and left a load @ PikoX.apk"
 else
-  echo "Warning: PikoX.apk not found. Wtf quit touching yourself as and my options."
+  echo "Warning: PikoX.apk not found. Wtf quit touching yourself and my options."
 fi
 
 echo "Script finished."
